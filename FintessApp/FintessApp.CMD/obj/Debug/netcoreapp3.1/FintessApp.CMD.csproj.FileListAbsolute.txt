@@ -1,0 +1,11 @@
+C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.exe
+C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.deps.json
+C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.runtimeconfig.json
+C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.runtimeconfig.dev.json
+C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.dll
+C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.pdb
+C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.csprojAssemblyReference.cache
+C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.AssemblyInfoInputs.cache
+C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.AssemblyInfo.cs
+C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.dll
+C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.pdb
