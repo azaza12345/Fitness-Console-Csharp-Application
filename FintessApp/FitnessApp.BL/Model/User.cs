@@ -2,6 +2,7 @@ using System;
 
 namespace FitnessApp.BL.Model
 {
+    [Serializable]
     public class User
     {
         #region Properties

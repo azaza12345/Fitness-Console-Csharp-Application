@@ -9,3 +9,17 @@ C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\F
 C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.AssemblyInfo.cs
 C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.dll
 C:\Users\anjac\RiderProjects\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.pdb
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.exe
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.deps.json
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.runtimeconfig.json
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.runtimeconfig.dev.json
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.dll
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FintessApp.CMD.pdb
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FitnessApp.BL.dll
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\FitnessApp.BL.pdb
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.csprojAssemblyReference.cache
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.AssemblyInfoInputs.cache
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.AssemblyInfo.cs
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.csproj.CopyComplete
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.dll
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.pdb

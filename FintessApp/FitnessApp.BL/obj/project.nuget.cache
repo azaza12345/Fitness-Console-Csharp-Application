@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zv36J4vgR/Mu6dlb9mYk7/HTL0gA1CHo0o2CugnFiR8YNWaw4Mb9V8s3mz8R5v1LkAqdyqwuoWWSA6vBkcBkyA==",
+  "dgSpecHash": "nTfSl7gCvNpa/WQewoIriV2W/qiMI01NK8xewpgBwt2Y4aSJsK/dUA7KmtgBJlyF9gO2pfmPJrVnIhL0zTURqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anjac\\RiderProjects\\FintessApp\\FitnessApp.BL\\FitnessApp.BL.csproj",
+  "projectFilePath": "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\FitnessApp.BL\\FitnessApp.BL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

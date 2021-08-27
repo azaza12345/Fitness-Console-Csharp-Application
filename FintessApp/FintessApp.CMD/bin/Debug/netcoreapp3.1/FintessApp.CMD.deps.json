@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "FintessApp.CMD/1.0.0": {
+        "dependencies": {
+          "FitnessApp.BL": "1.0.0"
+        },
         "runtime": {
           "FintessApp.CMD.dll": {}
+        }
+      },
+      "FitnessApp.BL/1.0.0": {
+        "runtime": {
+          "FitnessApp.BL.dll": {}
         }
       }
     }
   },
   "libraries": {
     "FintessApp.CMD/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FitnessApp.BL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
