@@ -1,5 +1,6 @@
 ﻿using System;
 using FitnessApp.BL.Controller;
+using FitnessApp.BL.Model;
 
 namespace FintessApp.CMD
 {
@@ -13,6 +14,7 @@ namespace FintessApp.CMD
             var name = Console.ReadLine();
 
             var userController = new UserController(name);
+            var eatingController = new EatingController(userController.CurrentUser);
             if (userController.IsNewUser)
             {
                 Console.WriteLine("Please, enter Gender: ");
@@ -24,6 +26,38 @@ namespace FintessApp.CMD
                 userController.SetNewUserData(gender, birthDate, weight, height);
             }
             Console.WriteLine(userController.CurrentUser);
+            
+            Console.WriteLine("What are you going to do?");
+            Console.WriteLine("E - enter Eating");
+            var key = Console.ReadKey();
+            Console.WriteLine();
+            if (key.Key == ConsoleKey.E)
+            {
+                var foods = EnterEating();
+                eatingController.Add(foods.food, foods.weight);
+
+                foreach (var food in eatingController.Eating.Foods)
+                {
+                    Console.WriteLine(food.Key.Name);
+                }
+            }
+        }
+
+        private static (Food food, double weight) EnterEating()
+        {
+            Console.Write("Please, Enter Product Name: ");
+            var food = Console.ReadLine();
+            
+            var calories = ParseDouble("calories");
+            var proteins = ParseDouble("proteins");
+            var fats = ParseDouble("fats");
+            var carbohydrates = ParseDouble("carbohydrates");
+
+            Console.WriteLine("Enter weight of product");
+            var weight = ParseDouble("product weight");
+
+            var product = new Food(food, calories, proteins, fats, carbohydrates);
+            return (product, weight);
         }
 
         private static DateTime ParseBirthDate()

@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessApp.BL", "FitnessApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FintessApp.CMD", "FintessApp.CMD\FintessApp.CMD.csproj", "{03A43951-F5B2-4EA0-8F17-CE0209361461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{37EBF16A-BABD-47D4-AF06-98E09ED600A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{37EBF16A-BABD-47D4-AF06-98E09ED600A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

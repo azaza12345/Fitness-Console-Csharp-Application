@@ -7,8 +7,9 @@ using FitnessApp.BL.Model;
 
 namespace FitnessApp.BL.Controller
 {
-    public class UserController
+    public class UserController : ControllerBase
     {
+        private const string USER_FILE_NAME = "users.dat";
         public List<User> Users { get; }
         public User CurrentUser { get; }
         public bool IsNewUser { get; } = false;
@@ -40,14 +41,6 @@ namespace FitnessApp.BL.Controller
             CurrentUser.Height = height;
             Save();
         }
-        public void Save()
-        {
-            var formatter = new BinaryFormatter();
-            using (var fs = new FileStream("users.dat", FileMode.OpenOrCreate))
-            {
-                formatter.Serialize(fs, Users);
-            }
-        }
 
         /// <summary>
         /// Get List of Users Data
@@ -55,18 +48,11 @@ namespace FitnessApp.BL.Controller
         /// <returns>Application user</returns>
         private List<User> GetUsersData()
         {
-            var formatter = new BinaryFormatter();
-            using (var fs = new FileStream("users.dat", FileMode.OpenOrCreate))
-            {
-                if (fs.Length > 0 && formatter.Deserialize(fs) is List<User> users)
-                {
-                    return users;
-                }
-                else
-                {
-                    return new List<User>();
-                }
-            }
+            return Load<List<User>>(USER_FILE_NAME) ?? new List<User>();
+        }
+        private void Save()
+        {
+            Save(USER_FILE_NAME, Users);
         }
     }
 }

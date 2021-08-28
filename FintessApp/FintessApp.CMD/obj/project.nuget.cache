@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NXnPFQX9iYTfG236ckTGsEtcasFSP5nSjfm8949pRJlBGUddmK4yzybS35MmRS097wb5SooKkxGJQr0M+wRZDQ==",
+  "dgSpecHash": "QTvxPfXSRhd8StCDrFqHm58YXghoetPdJfiNMMQQZ8HW4qrFLrZLOBxbtmEa5k6OqtZFa/P0/q40k//oA5SsTw==",
   "success": true,
   "projectFilePath": "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\FintessApp.CMD\\FintessApp.CMD.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
