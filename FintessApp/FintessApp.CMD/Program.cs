@@ -9,19 +9,51 @@ namespace FintessApp.CMD
         {
             Console.WriteLine("Hello! This is Fitness Application");
             
-            Console.Write("Please, input user name");
+            Console.WriteLine("Please, input user name");
             var name = Console.ReadLine();
-            Console.WriteLine("Input gender");
-            var gender = Console.ReadLine();
-            Console.WriteLine("Input Birth Date");
-            var birthDate = DateTime.Parse(Console.ReadLine() ?? string.Empty);
-            Console.WriteLine("Input weight");
-            var weight = double.Parse(Console.ReadLine());
-            Console.WriteLine("Input height");
-            var height = double.Parse(Console.ReadLine());
 
-            var user = new UserController(name, gender, birthDate, weight, height);
-            user.Save();
+            var userController = new UserController(name);
+            if (userController.IsNewUser)
+            {
+                Console.WriteLine("Please, enter Gender: ");
+                var gender = Console.ReadLine();
+                var weight = ParseDouble("Weight");
+                var height = ParseDouble("Height");
+                var birthDate = ParseBirthDate();
+                
+                userController.SetNewUserData(gender, birthDate, weight, height);
+            }
+            Console.WriteLine(userController.CurrentUser);
+        }
+
+        private static DateTime ParseBirthDate()
+        {
+            DateTime birthDate;
+            while (true)
+            {
+                Console.WriteLine("Please, enter Birth Date(dd.MM.yyyy): ");
+                if (DateTime.TryParse(Console.ReadLine(), out birthDate))
+                {
+                    break;
+                }
+
+                Console.WriteLine("Incorrect Birth Date Type");
+            }
+
+            return birthDate;
+        }
+
+        private static double ParseDouble(string name)
+        {
+            while (true)
+            {
+                Console.WriteLine($"Please, enter {name}");
+                if (double.TryParse(Console.ReadLine(), out var value))
+                {
+                    return value;
+                }
+                Console.WriteLine($"Incorrect {name}");
+            }
         }
     }
 }

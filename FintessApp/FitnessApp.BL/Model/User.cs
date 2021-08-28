@@ -8,9 +8,11 @@ namespace FitnessApp.BL.Model
         #region Properties
         public string Name { get; set; }
         public Gender Gender { get; set; }
-        public DateTime BirthData { get; }
+        public DateTime BirthDate { get; set; }
         public double Weight { get; set; }
         public double Height { get; set; }
+        public int Age => DateTime.Now.Year - BirthDate.Year;
+
         #endregion
 
         /// <summary>
@@ -18,10 +20,10 @@ namespace FitnessApp.BL.Model
         /// </summary>
         /// <param name="name"> Name </param>
         /// <param name="gender">Gender </param>
-        /// <param name="birthData">Birth Data</param>
+        /// <param name="birthDate">Birth Data</param>
         /// <param name="weight"> Weight </param>
         /// <param name="height"> Height </param>
-        public User(string name, Gender gender, DateTime birthData, double weight, double height)
+        public User(string name, Gender gender, DateTime birthDate, double weight, double height)
         {
             #region Check Conditions
             if (string.IsNullOrWhiteSpace(name))
@@ -32,7 +34,7 @@ namespace FitnessApp.BL.Model
             {
                 throw new ArgumentNullException(nameof(gender));
             }
-            if (birthData < DateTime.Parse("01.01.1900") || BirthData >= DateTime.Now)
+            if (birthDate < DateTime.Parse("01.01.1900") || BirthDate >= DateTime.Now)
             {
                 throw new ArgumentException("Invalid birthDate");
             }
@@ -48,14 +50,23 @@ namespace FitnessApp.BL.Model
             
             Name = name;
             Gender = gender;
-            BirthData = birthData;
+            BirthDate = birthDate;
             Weight = weight;
             Height = height;
         }
 
+        public User(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                throw new ArgumentNullException(nameof(name));
+            }
+
+            Name = name;
+        }
         public override string ToString()
         {
-            return Name;
+            return Name + " " + Age;
         }
     }
 }
