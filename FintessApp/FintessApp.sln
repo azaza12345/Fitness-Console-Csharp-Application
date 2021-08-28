@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessApp.BL", "FitnessApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FintessApp.CMD", "FintessApp.CMD\FintessApp.CMD.csproj", "{03A43951-F5B2-4EA0-8F17-CE0209361461}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{37EBF16A-BABD-47D4-AF06-98E09ED600A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,10 @@ Global
 		{03A43951-F5B2-4EA0-8F17-CE0209361461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03A43951-F5B2-4EA0-8F17-CE0209361461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03A43951-F5B2-4EA0-8F17-CE0209361461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EBF16A-BABD-47D4-AF06-98E09ED600A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EBF16A-BABD-47D4-AF06-98E09ED600A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EBF16A-BABD-47D4-AF06-98E09ED600A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EBF16A-BABD-47D4-AF06-98E09ED600A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
