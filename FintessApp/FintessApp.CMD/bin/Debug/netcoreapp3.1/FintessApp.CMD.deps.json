@@ -13,6 +13,14 @@
         },
         "runtime": {
           "FintessApp.CMD.dll": {}
+        },
+        "resources": {
+          "en/FintessApp.CMD.resources.dll": {
+            "locale": "en"
+          },
+          "ru/FintessApp.CMD.resources.dll": {
+            "locale": "ru"
+          }
         }
       },
       "System.ValueTuple/4.5.0": {},

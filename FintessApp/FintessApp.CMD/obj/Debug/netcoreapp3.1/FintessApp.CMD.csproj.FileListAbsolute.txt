@@ -23,3 +23,13 @@ C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\
 C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.csproj.CopyComplete
 C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.dll
 C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.pdb
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\en\FintessApp.CMD.resources.dll
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\bin\Debug\netcoreapp3.1\ru\FintessApp.CMD.resources.dll
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.Languages.Messages.resources
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.Languages.Messages.en.resources
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.Languages.Messages.ru.resources
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\FintessApp.CMD.csproj.GenerateResource.cache
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\en\FintessApp.CMD.resources.cs
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\en\FintessApp.CMD.resources.dll
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\ru\FintessApp.CMD.resources.cs
+C:\MyUnityProjects\FitnessApp\FintessApp\FintessApp.CMD\obj\Debug\netcoreapp3.1\ru\FintessApp.CMD.resources.dll
