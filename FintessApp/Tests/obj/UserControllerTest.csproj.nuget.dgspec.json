@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\UserControllerTest\\UserControllerTest.csproj": {}
+  },
+  "projects": {
+    "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\FitnessApp.BL\\FitnessApp.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\FitnessApp.BL\\FitnessApp.BL.csproj",
+        "projectName": "FitnessApp.BL",
+        "projectPath": "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\FitnessApp.BL\\FitnessApp.BL.csproj",
+        "packagesPath": "C:\\Users\\anjac\\.nuget\\packages\\",
+        "outputPath": "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\FitnessApp.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anjac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\UserControllerTest\\UserControllerTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\UserControllerTest\\UserControllerTest.csproj",
+        "projectName": "UserControllerTest",
+        "projectPath": "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\UserControllerTest\\UserControllerTest.csproj",
+        "packagesPath": "C:\\Users\\anjac\\.nuget\\packages\\",
+        "outputPath": "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\UserControllerTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anjac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\FitnessApp.BL\\FitnessApp.BL.csproj": {
+                "projectPath": "C:\\MyUnityProjects\\FitnessApp\\FintessApp\\FitnessApp.BL\\FitnessApp.BL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

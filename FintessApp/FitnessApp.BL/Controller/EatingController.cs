@@ -7,11 +7,9 @@ namespace FitnessApp.BL.Controller
 {
     public class EatingController : ControllerBase
     {
-        public Eating Eating { get; }
         private const string FOOD_FILE_NAME = "foods.dat";
         private const string EATING_FILE_NAME = "eatings.dat";
         private readonly User _user;
-        public List<Food> Foods { get; }
 
         public EatingController(User user)
         {
@@ -19,6 +17,10 @@ namespace FitnessApp.BL.Controller
             Foods = GetAllFoods();
             Eating = GetEating();
         }
+
+        public Eating Eating { get; }
+        public List<Food> Foods { get; }
+
         public void Add(Food food, double weight)
         {
             var product = Foods.SingleOrDefault(f => f.Name == food.Name);

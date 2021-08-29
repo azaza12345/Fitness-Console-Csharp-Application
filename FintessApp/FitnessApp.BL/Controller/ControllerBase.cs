@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
@@ -16,17 +15,15 @@ namespace FitnessApp.BL.Controller
                 formatter.Serialize(fs, item);
             }
         }
-        
+
         protected T Load<T>(string fileName)
         {
             var formatter = new BinaryFormatter();
             using (var fs = new FileStream(fileName, FileMode.OpenOrCreate))
             {
-                if (fs.Length > 0 && formatter.Deserialize(fs) is T items)
-                {
-                    return items;
-                }
+                if (fs.Length > 0 && formatter.Deserialize(fs) is T items) return items;
             }
+
             return default;
         }
     }

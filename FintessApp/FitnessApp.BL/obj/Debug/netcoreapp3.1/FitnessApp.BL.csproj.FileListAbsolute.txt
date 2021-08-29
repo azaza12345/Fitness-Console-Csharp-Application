@@ -1,0 +1,8 @@
+C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\bin\Debug\netcoreapp3.1\FitnessApp.BL.deps.json
+C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\bin\Debug\netcoreapp3.1\FitnessApp.BL.dll
+C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\bin\Debug\netcoreapp3.1\FitnessApp.BL.pdb
+C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.csprojAssemblyReference.cache
+C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.AssemblyInfoInputs.cache
+C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.AssemblyInfo.cs
+C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.dll
+C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.pdb
