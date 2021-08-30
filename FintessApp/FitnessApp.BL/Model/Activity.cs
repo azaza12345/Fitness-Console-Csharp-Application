@@ -5,6 +5,7 @@ namespace FitnessApp.BL.Model
     [Serializable]
     public class Activity
     {
+        public int Id { get; set; }
         public Activity(string name, double caloriesPerMinute)
         {
             Name = name;

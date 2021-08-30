@@ -6,3 +6,5 @@ C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\F
 C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.AssemblyInfo.cs
 C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.dll
 C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.pdb
+C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\bin\Debug\netcoreapp3.1\FitnessApp.BL.runtimeconfig.json
+C:\MyUnityProjects\FitnessApp\FintessApp\FitnessApp.BL\bin\Debug\netcoreapp3.1\FitnessApp.BL.runtimeconfig.dev.json

@@ -5,6 +5,7 @@ namespace FitnessApp.BL.Model
     [Serializable]
     public class User
     {
+        public int Id { get; set; }
         /// <summary>
         ///     Create new User
         /// </summary>

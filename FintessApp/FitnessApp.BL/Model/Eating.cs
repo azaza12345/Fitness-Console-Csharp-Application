@@ -10,6 +10,7 @@ namespace FitnessApp.BL.Model
     [Serializable]
     public class Eating
     {
+        public int Id { get; set; }
         public Eating(User user)
         {
             User = user ?? throw new ArgumentNullException("User can't be null");

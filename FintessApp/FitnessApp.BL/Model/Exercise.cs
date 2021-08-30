@@ -5,6 +5,7 @@ namespace FitnessApp.BL.Model
     [Serializable]
     public class Exercise
     {
+        public int Id { get; set; }
         public Exercise(DateTime start, DateTime finish, Activity activity, User user)
         {
             Start = start;

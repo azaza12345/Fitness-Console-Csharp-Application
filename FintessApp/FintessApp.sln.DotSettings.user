@@ -1,15 +1,18 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\anjac\.nuget\packages\entityframework\6.4.4\lib\netstandard2.1\EntityFramework.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3195f677_002D60c0_002D4670_002Db7ec_002Dad612707d367/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UserControllerTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::37EBF16A-BABD-47D4-AF06-98E09ED600A2::.NETCoreApp,Version=v3.1::TestProject1.UserControllerTests.UserControllerTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9ef3b6c6_002D01b1_002D481e_002Da486_002D9fd84ac713f2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;TestProject1&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9ef3b6c6_002D01b1_002D481e_002Da486_002D9fd84ac713f2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="1" IsActive="True" Name="All tests from &amp;lt;TestProject1&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::37EBF16A-BABD-47D4-AF06-98E09ED600A2::.NETCoreApp,Version=v3.1::TestProject1.EatingControllerTests.EatingTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af2cc9d5_002D895f_002D4913_002Dbfcb_002D91d5cb5a61fc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UserControllerTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af2cc9d5_002D895f_002D4913_002Dbfcb_002D91d5cb5a61fc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UserControllerTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::37EBF16A-BABD-47D4-AF06-98E09ED600A2::.NETCoreApp,Version=v3.1::TestProject1.UserControllerTests.UserControllerTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::37EBF16A-BABD-47D4-AF06-98E09ED600A2::.NETCoreApp,Version=v3.1::TestProject1.EatingControllerTests.EatingTest&lt;/TestId&gt;&#xD;

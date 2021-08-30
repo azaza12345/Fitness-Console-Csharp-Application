@@ -1,30 +1,19 @@
 using System;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 
 namespace FitnessApp.BL.Controller
 {
     [Serializable]
     public abstract class ControllerBase
     {
+        protected IDataSaver _saver = new SerializeDataSaver();
         protected void Save(string fileName, object item)
         {
-            var formatter = new BinaryFormatter();
-            using (var fs = new FileStream(fileName, FileMode.OpenOrCreate))
-            {
-                formatter.Serialize(fs, item);
-            }
+            _saver.Save(fileName, item);
         }
 
         protected T Load<T>(string fileName)
         {
-            var formatter = new BinaryFormatter();
-            using (var fs = new FileStream(fileName, FileMode.OpenOrCreate))
-            {
-                if (fs.Length > 0 && formatter.Deserialize(fs) is T items) return items;
-            }
-
-            return default;
+            return _saver.Load<T>(fileName);
         }
     }
 }

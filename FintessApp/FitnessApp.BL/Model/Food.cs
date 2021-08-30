@@ -5,6 +5,7 @@ namespace FitnessApp.BL.Model
     [Serializable]
     public class Food
     {
+        public int Id { get; set; }
         public Food(string name) : this(name, 0, 0, 0, 0)
         {
         }
